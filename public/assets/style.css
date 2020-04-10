@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'front-test-font-icon';
+  src:  url('fonts/front-test-font-icon.eot?m5nsi9');
+  src:  url('fonts/front-test-font-icon.eot?m5nsi9#iefix') format('embedded-opentype'),
+    url('fonts/front-test-font-icon.woff2?m5nsi9') format('woff2'),
+    url('fonts/front-test-font-icon.ttf?m5nsi9') format('truetype'),
+    url('fonts/front-test-font-icon.woff?m5nsi9') format('woff'),
+    url('fonts/front-test-font-icon.svg?m5nsi9#front-test-font-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'front-test-font-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icn_cart:before {
+  content: "\e900";
+}
+.icon-icn_checkbox_off:before {
+  content: "\e901";
+}
+.icon-icn_checkbox_on:before {
+  content: "\e902";
+  color: #1DB779;
+}
+.icon-icn_chevron_left:before {
+  content: "\e903";
+}
+.icon-icn_chevron_right:before {
+  content: "\e904";
+}
+.icon-icn_search:before {
+  content: "\e906";
+}
+.icon-icn_youtube:before {
+  content: "\e905";
+  color: #FFFFFF
+}
+.icon-icn_twitter:before {
+  content: "\e907";
+  color: #FFFFFF
+}
+.icon-icn_facebook:before {
+  content: "\e908";
+  color: #FFFFFF
+}
